@@ -20,4 +20,8 @@ public class CalculatorTest extends TestCase {
     public void testFail() throws Exception {
         Assert.fail("Some bad test has failed");
     }
+
+    public void testPass() throws Exception {
+        Assert.assertEquals(3, 3);
+    }
 }
