@@ -9,5 +9,9 @@ public class Calculator {
         // This is a comment
     }
 
+    public int multiply(int x, int y){
+        return x*y;
+    }
+
 
 }
